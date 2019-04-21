@@ -42,7 +42,7 @@ public class BinaryTreeHeight {
 		BinaryTreeHeight bth = new BinaryTreeHeight();
 		bth.root = new Node(20);
 		bth.root.left = new Node(40);
-		System.out.println(bth.maxHeight(bth.root));
+		System.out.println("Hello"+bth.maxHeight(bth.root));
 		bth.printBinaryTree(bth.root);
 	}
 }
